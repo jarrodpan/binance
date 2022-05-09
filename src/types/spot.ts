@@ -556,7 +556,7 @@ export interface SpotOrder {
   price: numberInString;
   origQty: numberInString;
   executedQty: numberInString;
-  cummulativeQuoteQty: numberInString;
+  cumulativeQuoteQty: numberInString;
   status: OrderStatus;
   timeInForce: OrderTimeInForce;
   type: OrderType;
